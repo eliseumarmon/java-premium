@@ -15,6 +15,6 @@ public class Tarea extends Actividad {
     }
 
     public void ejecutar() {
-        System.out.println("Tarea: " + getNombre() + " (prioridad: " + prioridad + ")");
+        System.out.println(getNombre() + ". Prioridad: " + prioridad + ".");
     }
 }
