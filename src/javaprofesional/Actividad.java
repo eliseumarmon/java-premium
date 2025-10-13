@@ -1,3 +1,5 @@
+package javaprofesional;
+
 public abstract class Actividad {
     private String nombre;
 

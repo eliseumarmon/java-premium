@@ -1,5 +1,7 @@
+package javaprofesional;
+
 public class Tarea extends Actividad {
-    private int prioridad;
+    private final int prioridad;
 
     public Tarea(String nombre, int prioridad) {
         super(nombre);
@@ -8,10 +10,6 @@ public class Tarea extends Actividad {
 
     public int getPrioridad() {
         return prioridad;
-    }
-
-    public void setPrioridad(int prioridad) {
-        this.prioridad = prioridad;
     }
 
     public void ejecutar() {
