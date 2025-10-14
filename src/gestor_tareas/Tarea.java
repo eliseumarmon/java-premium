@@ -1,4 +1,4 @@
-package javaprofesional;
+package gestor_tareas;
 
 public class Tarea extends Actividad {
     private final int prioridad;

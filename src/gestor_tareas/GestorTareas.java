@@ -1,4 +1,4 @@
-package javaprofesional;
+package gestor_tareas;
 
 import java.util.*;
 
